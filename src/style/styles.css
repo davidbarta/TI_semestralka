@@ -1,0 +1,25 @@
+.separator *.line {
+	-fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-color: #2d2d2d;
+}
+
+.green {
+    -fx-background-color:
+        linear-gradient(#bababa, #404040),
+        radial-gradient(center 50% -40%, radius 200%, #646464 45%, #646464 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.green:pressed {
+    -fx-background-color:
+        linear-gradient(#bababa, #404040),
+        radial-gradient(center 50% -40%, radius 200%, #4c4c4c 45%, #4c4c4c 50%);
+}
+
+.grid {
+	-fx-background-color: #006400;
+}
